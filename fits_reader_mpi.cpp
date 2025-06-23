@@ -54,8 +54,8 @@ int main(int argc, char* argv[]) {
     if (rank == 0) {
         std::cout << "Total: " << size << " Perf CPU and " << mem_size / (1024*1024*1024) << " GB Memory" << std::endl;
     }
-    //mem_size = mem_size * 1 / 8 ;
-    mem_size = mem_size * 1 / 4 ;
+    mem_size = mem_size * 1 / 8 ;
+    //mem_size = mem_size * 1 / 4 ;
     //mem_size /= 2;
     //mem_size = mem_size * 3 / 4 ;
 
